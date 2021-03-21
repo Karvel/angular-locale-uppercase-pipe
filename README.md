@@ -1,5 +1,10 @@
 # AngularLocaleUppercasePipe
 
+| Branch      | Status                                                                                                                                              |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| development | ![development](https://github.com/Karvel/angular-locale-uppercase-pipe/workflows/.github/workflows/build-and-test.yml/badge.svg?branch=development) |
+| main        | ![main](https://github.com/Karvel/angular-locale-uppercase-pipe/workflows/.github/workflows/build-and-test.yml/badge.svg?branch=main)               |
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
 ## Development server
