@@ -82,6 +82,13 @@ html {
 }
 //#endregion
 
+//#region Nav
+.nav-container {
+  background: mat-color($angular-locale-uppercase-pipe-primary);
+  color: white;
+}
+//#endregion
+
 //#region Footer
 .footer-container {
   background: mat-color($angular-locale-uppercase-pipe-primary);
