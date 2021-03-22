@@ -1,6 +1,12 @@
 {
   "name": "angular-locale-uppercase-pipe",
   "version": "0.0.0",
+  "author": "Elanna Grossman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karvel/angular-locale-uppercase-pipe/issues"
+  },
+  "homepage": "https://github.com/Karvel/angular-locale-uppercase-pipe#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
