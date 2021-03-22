@@ -5,4 +5,6 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./test.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TestComponent {}
+export class TestComponent {
+  public testValue: string = 'ılıman ilik';
+}
