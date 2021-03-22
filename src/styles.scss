@@ -80,3 +80,10 @@ html {
   flex-direction: column;
 }
 //#endregion
+
+//#region Footer
+.footer-container {
+  background: mat-color($angular-locale-uppercase-pipe-primary);
+  color: white;
+}
+//#endregion
