@@ -7,24 +7,21 @@
 //#region Global Positioning
 body,
 html {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+body,
+html {
   margin: 0;
   padding: 0;
 }
+
 * {
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}
-
 .holy-grail {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .holy-grail,
@@ -50,7 +47,7 @@ body {
 }
 
 .content-expand {
-  width: 100vw;
+  width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -68,5 +65,18 @@ body {
 
 .center {
   text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.child {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 //#endregion
