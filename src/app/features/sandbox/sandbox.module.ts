@@ -4,7 +4,7 @@ import {
   SandboxRoutingModule,
   components as sandboxComponents,
 } from './sandbox-routing.module';
-import { SharedModule } from 'app/infrastructure/shared/shared.module';
+import { SharedModule } from 'src/app/infrastructure/shared/shared.module';
 
 /**
  * Feature module for all sandbox-related components and dependencies.

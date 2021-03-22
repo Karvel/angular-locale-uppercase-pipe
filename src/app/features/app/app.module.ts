@@ -8,7 +8,7 @@ import {
 } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SandboxModule } from '../sandbox/sandbox.module';
-import { SharedModule } from 'app/infrastructure/shared/shared.module';
+import { SharedModule } from 'src/app/infrastructure/shared/shared.module';
 
 @NgModule({
   declarations: [AppComponent, mainComponents],
