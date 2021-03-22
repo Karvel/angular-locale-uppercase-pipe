@@ -20,7 +20,7 @@ export class LocaleUpperCasePipe implements PipeTransform {
       return value.toLocaleUpperCase(locale);
     } catch (error) {
       console.warn(error);
-      return value.toLocaleUpperCase();
+      return value.toLocaleUpperCase(Constants.defaultLanguage);
     }
   }
 }
