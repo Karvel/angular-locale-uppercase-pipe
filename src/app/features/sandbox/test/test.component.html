@@ -1,11 +1,38 @@
 <div class="card-list">
-  <mat-card class="test-card">
-    <mat-card-content>1</mat-card-content>
-  </mat-card>
-  <mat-card class="test-card">
-    <mat-card-content>2</mat-card-content>
-  </mat-card>
-  <mat-card class="test-card">
-    <mat-card-content>3</mat-card-content>
-  </mat-card>
+  <span>
+    <mat-card class="test-card">
+      <mat-card-header>
+        <mat-card-title>Lowercase</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>ılıman ilik</mat-card-content>
+    </mat-card>
+  </span>
+  <span>
+    <mat-card class="test-card">
+      <mat-card-header>
+        <mat-card-title>Locale Passed to Pipe</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>{{
+        "Ilıman İlik" | localeuppercase: "tr-TR"
+      }}</mat-card-content>
+    </mat-card>
+  </span>
+  <span>
+    <mat-card class="test-card">
+      <mat-card-header>
+        <mat-card-title>Default Pipe Behavior</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>{{ "Ilıman İlik" | localeuppercase }}</mat-card-content>
+    </mat-card>
+  </span>
+  <span>
+    <mat-card class="test-card">
+      <mat-card-header>
+        <mat-card-title>Invalid Locale Passed to Pipe</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>{{
+        "Ilıman İlik" | localeuppercase: "123"
+      }}</mat-card-content>
+    </mat-card>
+  </span>
 </div>
