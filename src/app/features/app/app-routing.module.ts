@@ -5,6 +5,11 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: '/sandbox',
+    pathMatch: 'full',
+  },
+  {
     path: '**',
     component: NotFoundComponent,
   },

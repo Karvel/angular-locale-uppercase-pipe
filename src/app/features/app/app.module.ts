@@ -7,10 +7,18 @@ import {
   components as mainComponents,
 } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SandboxModule } from '../sandbox/sandbox.module';
+import { SharedModule } from '@shared/shared.module';
 
 @NgModule({
   declarations: [AppComponent, mainComponents],
-  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    SandboxModule,
+    SharedModule.forRoot(),
+    AppRoutingModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
