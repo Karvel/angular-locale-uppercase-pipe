@@ -1,4 +1,4 @@
-import { Constants } from '@app/infrastructure/utils/constants';
+import { Constants } from 'app/infrastructure/utils/constants';
 
 import { LocaleUpperCasePipe } from './locale-upper-case.pipe';
 
