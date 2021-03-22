@@ -43,7 +43,8 @@
       "@utils/*": [
         "app/infrastructure/utils/*"
       ]
-    }
+    },
+    "resolveJsonModule": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
