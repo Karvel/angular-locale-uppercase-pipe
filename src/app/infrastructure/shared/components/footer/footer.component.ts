@@ -1,7 +1,7 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 
-import { environment } from 'src/environments/environment';
-import { Utils } from 'src/app/infrastructure/utils/utils';
+import { environment } from '../../../../../environments/environment';
+import { Utils } from '../../../utils/utils';
 
 @Component({
   selector: 'app-footer',

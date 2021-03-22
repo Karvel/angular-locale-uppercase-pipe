@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-import { Constants } from 'src/app/infrastructure/utils/constants';
+import { Constants } from '../../utils/constants';
 
 @Pipe({ name: 'localeuppercase' })
 export class LocaleUpperCasePipe implements PipeTransform {
@@ -20,7 +20,7 @@ export class LocaleUpperCasePipe implements PipeTransform {
       return value.toLocaleUpperCase(locale);
     } catch (error) {
       console.warn(error);
-      return value.toLocaleUpperCase();
+      return value.toLocaleUpperCase(Constants.defaultLanguage);
     }
   }
 }

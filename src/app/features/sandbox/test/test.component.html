@@ -4,7 +4,7 @@
       <mat-card-header>
         <mat-card-title>Lowercase</mat-card-title>
       </mat-card-header>
-      <mat-card-content class="card-content">ılıman ilik</mat-card-content>
+      <mat-card-content class="card-content">{{ testValue }}</mat-card-content>
     </mat-card>
   </span>
   <span>
@@ -13,7 +13,7 @@
         <mat-card-title>Locale Passed to Pipe</mat-card-title>
       </mat-card-header>
       <mat-card-content class="card-content">{{
-        "Ilıman İlik" | localeuppercase: "tr-TR"
+        testValue | localeuppercase: "tr-TR"
       }}</mat-card-content>
     </mat-card>
   </span>
@@ -23,7 +23,7 @@
         <mat-card-title>Default Pipe Behavior</mat-card-title>
       </mat-card-header>
       <mat-card-content class="card-content">{{
-        "Ilıman İlik" | localeuppercase
+        testValue | localeuppercase
       }}</mat-card-content>
     </mat-card>
   </span>
@@ -33,7 +33,7 @@
         <mat-card-title>Invalid Locale Passed to Pipe</mat-card-title>
       </mat-card-header>
       <mat-card-content class="card-content">{{
-        "Ilıman İlik" | localeuppercase: "123"
+        testValue | localeuppercase: "123"
       }}</mat-card-content>
     </mat-card>
   </span>
