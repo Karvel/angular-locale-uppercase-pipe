@@ -3,7 +3,7 @@ import { MatCardModule } from '@angular/material/card';
 import { createComponentFactory, Spectator } from '@ngneat/spectator';
 import { MockModule, MockPipe } from 'ng-mocks';
 
-import { LocaleUpperCasePipe } from '@shared/pipes/locale-upper-case.pipe';
+import { LocaleUpperCasePipe } from 'app/infrastructure/shared/pipes/locale-upper-case.pipe';
 import { TestComponent } from './test.component';
 
 describe('[Integration] TestComponent', () => {

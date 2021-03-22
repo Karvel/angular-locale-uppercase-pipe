@@ -20,30 +20,6 @@
       "es2018",
       "dom"
     ],
-    "paths": {
-      "@app/*": [
-        "app/*"
-      ],
-      "@assets/*": ["assets/*"],
-      "@core/*": [
-        "app/infrastructure/core/*"
-      ],
-      "@env/*": [
-        "environments/*"
-      ],
-      "@features/*": [
-        "app/features/*"
-      ],
-      "@models/*": [
-        "app/infrastructure/models/*"
-      ],
-      "@shared/*": [
-        "app/infrastructure/shared/*"
-      ],
-      "@utils/*": [
-        "app/infrastructure/utils/*"
-      ]
-    },
     "resolveJsonModule": true
   },
   "angularCompilerOptions": {
