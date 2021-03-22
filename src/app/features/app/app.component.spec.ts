@@ -4,8 +4,8 @@ import { createComponentFactory, Spectator } from '@ngneat/spectator';
 import { MockComponent } from 'ng-mocks';
 
 import { AppComponent } from './app.component';
-import { FooterComponent } from 'src/app/infrastructure/shared/components/footer/footer.component';
-import { NavComponent } from 'src/app/infrastructure/shared/components/nav/nav.component';
+import { FooterComponent } from '../../infrastructure/shared/components/footer/footer.component';
+import { NavComponent } from '../../infrastructure/shared/components/nav/nav.component';
 
 describe('[Integration] AppComponent', () => {
   let spectator: Spectator<AppComponent>;

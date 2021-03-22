@@ -1,7 +1,7 @@
 import { createComponentFactory, Spectator } from '@ngneat/spectator';
 import { MockPipe } from 'ng-mocks';
 
-import { LocaleUpperCasePipe } from 'src/app/infrastructure/shared/pipes/locale-upper-case.pipe';
+import { LocaleUpperCasePipe } from '../../pipes/locale-upper-case.pipe';
 import { NavComponent } from './nav.component';
 
 describe('[Integration] NavComponent', () => {

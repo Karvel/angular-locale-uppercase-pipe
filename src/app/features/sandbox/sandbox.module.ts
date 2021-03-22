@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
+import { SharedModule } from '../../infrastructure/shared/shared.module';
 
 import {
   SandboxRoutingModule,
   components as sandboxComponents,
 } from './sandbox-routing.module';
-import { SharedModule } from 'src/app/infrastructure/shared/shared.module';
 
 /**
  * Feature module for all sandbox-related components and dependencies.
