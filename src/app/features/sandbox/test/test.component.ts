@@ -6,5 +6,5 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TestComponent {
-  public testValue: string = 'ılıman ilik';
+  public testValue = 'ılıman ilik';
 }
