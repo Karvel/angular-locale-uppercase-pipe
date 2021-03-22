@@ -1,17 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
+//#region Angular Material
+@import "./assets/styles/theme";
+//#endregion
+
 //#region Global Positioning
+body,
+html {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
 body,
 html {
   margin: 0;
   padding: 0;
 }
+
 * {
   box-sizing: border-box;
 }
 
 .holy-grail {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .holy-grail,
@@ -37,7 +47,7 @@ html {
 }
 
 .content-expand {
-  width: 100vw;
+  width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -55,5 +65,18 @@ html {
 
 .center {
   text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.child {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 //#endregion
