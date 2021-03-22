@@ -1,13 +1,16 @@
 import { RouterTestingModule } from '@angular/router/testing';
 
 import { createComponentFactory, Spectator } from '@ngneat/spectator';
+import { MockComponent } from 'ng-mocks';
 
 import { AppComponent } from './app.component';
+import { FooterComponent } from '@shared/components/footer/footer.component';
 
 describe('[Integration] AppComponent', () => {
   let spectator: Spectator<AppComponent>;
   const createComponent = createComponentFactory({
     component: AppComponent,
+    declarations: [MockComponent(FooterComponent)],
     imports: [RouterTestingModule],
   });
 
