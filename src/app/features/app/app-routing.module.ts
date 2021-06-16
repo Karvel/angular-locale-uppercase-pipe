@@ -6,7 +6,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/sandbox',
+    redirectTo: '/sandbox/test',
     pathMatch: 'full',
   },
   {
